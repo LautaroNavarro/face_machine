@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Probabilidad y estadistica</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="./dist/jquery.slotmachine.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="./dist/slotmachine.js"></script>
+</head>
+<body id="body">
+<nav class="navbar navbar-expand-sm dark navbar-dark mb-3">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Probabilidad y estadistica</a>
+    </li>
+  </ul>
+</nav>
+    <div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+                <div class="row">
+                    <div class="col-4 text-center custom-color">
+                        <h1>Caras actuales</h1>
+                        <div id="faces" class="list-group mb-3">
+                        </div>
+                    </div>
+                    <div class="col-4 custom-color">
+                        <h1>Combinaciones</h1>
+                        <div id="combinaciones">
+                        </div>
+                     </div>
+                    <div class="col-4 custom-color">
+                        <h1>Ema³ prob</h1>
+                        <div id="ema_3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-12 text-center">
+                <button id="remove_face" class="btn btn-danger">Quitar cara</button>
+                <button id="add_face" class="btn btn-success">Agregar cara</button>
+                <h3>Resultado</h3>
+                <div id="r1"></div>
+            </div>
+        </div>
+    </div>
+    <div id="casino">
+        <div class="content">
+            <div>
+                <div id="casino1" class="slotMachine ml--65">
+                    <div class="slot slot1">
+                        <img src="./img/slot1.png" class="slot-image">
+                    </div>
+                    <div class="slot slot2">
+                        <img src="./img/slot2.png" class="slot-image">
+                    </div>
+                    <div class="slot slot3">
+                        <img src="./img/slot3.png" class="slot-image">
+                    </div>
+                    <div class="slot slot4">
+                        <img src="./img/slot4.png" class="slot-image">
+                    </div>
+                    <div class="slot slot5">
+                        <img src="./img/slot5.png" class="slot-image">
+                    </div>
+                    <div class="slot slot6">
+                        <img src="./img/slot6.png" class="slot-image">
+                    </div>
+                    <div class="slot slot7">
+                        <img src="./img/slot7.png" class="slot-image">
+                    </div>
+                    <div class="slot slot8">
+                        <img src="./img/slot8.png" class="slot-image">
+                    </div>
+                </div>
+                <div id="casino2" class="slotMachine">
+                    <div class="slot slot1">
+                        <img src="./img/slot1.png" class="slot-image">
+                    </div>
+                    <div class="slot slot2">
+                        <img src="./img/slot2.png" class="slot-image">
+                    </div>
+                    <div class="slot slot3">
+                        <img src="./img/slot3.png" class="slot-image">
+                    </div>
+                    <div class="slot slot4">
+                        <img src="./img/slot4.png" class="slot-image">
+                    </div>
+                    <div class="slot slot5">
+                        <img src="./img/slot5.png" class="slot-image">
+                    </div>
+                    <div class="slot slot6">
+                        <img src="./img/slot6.png" class="slot-image">
+                    </div>
+                    <div class="slot slot7">
+                        <img src="./img/slot7.png" class="slot-image">
+                    </div>
+                    <div class="slot slot8">
+                        <img src="./img/slot8.png" class="slot-image">
+                    </div>
+                </div>
+                <div id="casino3" class="slotMachine">
+                    <div class="slot slot1">
+                        <img src="./img/slot1.png" class="slot-image">
+                    </div>
+                    <div class="slot slot2">
+                        <img src="./img/slot2.png" class="slot-image">
+                    </div>
+                    <div class="slot slot3">
+                        <img src="./img/slot3.png" class="slot-image">
+                    </div>
+                    <div class="slot slot4">
+                        <img src="./img/slot4.png" class="slot-image">
+                    </div>
+                    <div class="slot slot5">
+                        <img src="./img/slot5.png" class="slot-image">
+                    </div>
+                    <div class="slot slot6">
+                        <img src="./img/slot6.png" class="slot-image">
+                    </div>
+                    <div class="slot slot7">
+                        <img src="./img/slot7.png" class="slot-image">
+                    </div>
+                    <div class="slot slot8">
+                        <img src="./img/slot8.png" class="slot-image">
+                    </div>
+                </div>
+                <div class="btn-group btn-group-justified" role="group">
+                    <button id="casinoShuffle" type="button" class="btn btn-primary btn-lg">Mezclar!</button>
+                    <button id="casinoStop" type="button" class="btn btn-primary btn-lg">Parar!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./helpers.js"></script>
+    <script type="text/javascript" src="./slot_machine.js"></script>
+</body>
+</html>

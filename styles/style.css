@@ -1,0 +1,86 @@
+ @charset "utf-8";
+
+h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark{
+    background-color: #343434;
+}
+
+.btn-group-justified {
+    margin: 0 auto;
+}
+
+.custom-color{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.ml--65{
+    margin-left: -65px;
+}
+
+.slot-image {
+    width: 60px;
+    padding-top:1px;
+}
+
+.slotMachine .slot{
+    height:100px;
+    background-position-x: 55%;
+    background-repeat: no-repeat;
+}
+
+.machineContainer{
+    padding: 5px 1px 5px 1px;
+    height: 135px;
+}
+
+.slotMachine{
+    width: 36.333333%;
+    border: 5px solid #AA1919;
+    height: 100px;
+    display: inline-block;
+}
+
+#casino .btn-group {
+    margin-top: 150px;
+    transform: translateX(-25px);
+}
+
+#casino .btn-group .btn {
+    border: none;
+    background-color: #750000;
+}
+
+#casino .btn-group .btn:hover, .btn-group .btn:focus {
+    background-color: #AA1919;
+}
+
+#casino .content:nth-child(1) {
+    text-align: center;
+    background: url('../img/machine.png') no-repeat 50% 80px;
+    background-position-x: calc(50% + 30px);
+    min-height: 580px;
+}
+
+#casino .content > div {
+    padding-top: 245px;
+    width: 300px;
+    margin: 0 auto;
+    transform: translateX(30px);
+}
